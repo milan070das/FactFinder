@@ -1,38 +1,40 @@
-# 🧠 Fact Finder: Your One-Stop Solution for All Your News Needs!
+# 🕵️‍♂️ FactFinder — AI-Powered News Verification and Research Assistant
 
-Welcome to **Fact Finder** – a full-fledged AI-powered Streamlit application that helps you **verify news credibility**, **research multiple news sources**, and **interact with a conversational AI chatbot**. Whether you’re looking to bust fake news or ask smart questions about current events, this app has got you covered.
-
-## 🚀 Features
-
-- 📰 **Fake News Detection** using a trained ML model (text/URL/image-based).
-- 📷 **Image OCR via Gemini API** for text extraction from images.
-- 🌐 **News Research** from up to 3 URLs with contextual Q&A support.
-- 🤖 **Newzie AI Assistant** – Ask questions via text or voice.
-- 🔈 **Text-to-Speech and Speech Recognition** for hands-free interaction.
-- 🧠 **Gemini + LangChain + FAISS** based vector search for accurate answers.
-- 🎤 **Voice Input Support** for AI chatbot queries.
-- 👨‍💻 Developer section with social links and feedback QR.
+FactFinder is an intelligent web application designed to help users detect fake news, research trusted news sources, get AI-driven assistance, and access frequently asked questions about misinformation. Built with modern AI models and intuitive interfaces, FactFinder empowers users to navigate the complex media landscape with confidence.
 
 ---
 
-## 🛠 Tech Stack
+## ✨ Key Features
 
-| Technology     | Purpose                              |
-|----------------|--------------------------------------|
-| Streamlit      | UI and frontend                      |
-| Gemini API     | AI responses and embeddings          |
-| LangChain      | Contextual question-answering        |
-| FAISS          | Efficient document retrieval          |
-| scikit-learn   | Fake News ML model                   |
-| pyttsx3        | Text-to-Speech                       |
-| SpeechRecognition | Voice Input via Microphone        |
-| yFinance, PIL, newspaper3k | Utility libraries        |
+- 🔍 **Fake News Detection:** Analyze news articles to determine their authenticity using advanced NLP models.
+- 📰 **News Research:** Search and summarize relevant news articles on any topic.
+- 🤖 **AI Assistant:** Get AI-generated answers and insights related to news and misinformation.
+- ❓ **FAQ Section:** Access a curated set of frequently asked questions about fake news, misinformation, and media literacy.
+- 📂 **Multi-module System:** Organized interface separating key functions for ease of use.
+- ⚡ **Responsive UI:** Clean and interactive design built with Streamlit.
 
 ---
 
-## 📦 Installation
+## 🛠️ Tech Stack
 
-1. **Clone this repository**
-   ```bash
-   git clone https://github.com/yourusername/fact-finder.git
-   cd fact-finder
+| Layer          | Technology                    |
+|----------------|------------------------------|
+| Frontend & UI  | Streamlit                    |
+| NLP Models     | Gemini, Transformers   |
+| Data Handling  | Python, Pandas, Requests     |
+| Backend Logic  | Python                      |
+| Fake News Detection Models | Custom-trained NLP classifiers |
+
+---
+
+## 📁 Project Structure
+
+```plaintext
+FactFinder/
+├── app.py                      # Main Streamlit app entry point
+├── fake_news_detection.py      # Fake news detection model and logic
+├── news_research.py            # News search and summarization utilities
+├── ai_assistant.py             # GPT-powered AI assistant module
+├── faq_data.json               # FAQ content data
+├── requirements.txt            # Python dependencies
+├── README.md                   # Project documentation
