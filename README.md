@@ -26,15 +26,3 @@ FactFinder is an intelligent web application designed to help users detect fake 
 | Fake News Detection Models | Custom-trained NLP classifiers |
 
 ---
-
-## 📁 Project Structure
-
-```plaintext
-FactFinder/
-├── app.py                      # Main Streamlit app entry point
-├── fake_news_detection.py      # Fake news detection model and logic
-├── news_research.py            # News search and summarization utilities
-├── ai_assistant.py             # GPT-powered AI assistant module
-├── faq_data.json               # FAQ content data
-├── requirements.txt            # Python dependencies
-├── README.md                   # Project documentation
