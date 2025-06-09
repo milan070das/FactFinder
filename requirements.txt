@@ -5,12 +5,11 @@ nltk
 pyttsx3
 SpeechRecognition
 google-generativeai
-langchain
+joblib
+langchain-google-genai
 langchain-community
 Pillow
 newspaper3k
 faiss-cpu
-joblib
 unstructured
-langchain-google-genai
 lxml
