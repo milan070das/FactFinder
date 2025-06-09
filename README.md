@@ -35,4 +35,4 @@ FactFinder is an intelligent web application designed to help users detect fake 
 4. Paste it the place where it is written "your-api-key"
 
 ## Link to access the app:
-factfinder.streamlit.app
+factfinder.streamlit.app (Copy and paste it in browser)
