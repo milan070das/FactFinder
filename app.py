@@ -44,12 +44,9 @@ with st.spinner("Downloading NLTK data..."):
     nltk.download('punkt', download_dir=nltk_data_dir)  # Download only necessary data
 
 # Set up API key
-os.environ["GEMINI_API_KEY"] = "AIzaSyA0jX1JDZD7Tkhgm4crgO08bAjG9KFBUYc"  # Replace with a secure method
+api_key=st.secrets["API_KEY"]
 
-GOOGLE_API_KEY = "AIzaSyA0jX1JDZD7Tkhgm4crgO08bAjG9KFBUYc"
-os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
-
-genai.configure(api_key=GOOGLE_API_KEY)
+genai.configure(api_key)
 model = genai.GenerativeModel('gemini-2.0-flash')
 
 # Initialize text-to-speech
