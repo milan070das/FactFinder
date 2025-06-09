@@ -13,4 +13,4 @@ newspaper3k
 faiss-cpu
 unstructured
 lxml_html_clean
-sklearn
+scikit-learn
