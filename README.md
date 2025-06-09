@@ -34,4 +34,4 @@ FactFinder is an intelligent web application designed to help users detect fake 
 3. Click **"Get API Key"** and copy the generated key.
 4. Paste it the place where it is written "your-api-key"
 
-Link to access the app: factfinder.streamlit.app
+[Link to access the app](factfinder.streamlit.app)
