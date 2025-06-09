@@ -12,3 +12,4 @@ newspaper3k
 faiss-cpu
 joblib
 unstructured
+langchain-google-genai
