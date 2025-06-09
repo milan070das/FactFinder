@@ -13,3 +13,4 @@ faiss-cpu
 joblib
 unstructured
 langchain-google-genai
+lxml
