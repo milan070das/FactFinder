@@ -220,6 +220,7 @@ elif tabs == "🤖 Newzie":
         today = date.today().strftime("%B %d, %Y")
         query = f"Give me the top news headlines for {today}. Only include verified and trustworthy headlines."
         response = ai_response(query)
+        st.success(f"🤖 {response}")
     elif query:
         response = ai_response(query)
         st.success(f"🤖 {response}")
