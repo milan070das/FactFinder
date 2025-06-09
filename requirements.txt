@@ -12,4 +12,4 @@ Pillow
 newspaper3k
 faiss-cpu
 unstructured
-lxml
+lxml_html_clean
