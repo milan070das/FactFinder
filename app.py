@@ -47,7 +47,7 @@ with st.spinner("Downloading NLTK data..."):
 # Set up API key
 api_key = st.secrets["API_KEY"]
 genai.configure(api_key=api_key)
-# GOOGLE_API_KEY = "AIzaSyA0jX1JDZD7Tkhgm4crgO08bAjG9KFBUYc"
+# GOOGLE_API_KEY = "your-api-key"
 # os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 model = genai.GenerativeModel('gemini-2.0-flash')
 
