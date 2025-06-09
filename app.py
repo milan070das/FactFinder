@@ -215,6 +215,10 @@ elif tabs == "🤖 Newzie":
         today = datetime.now()
         formatted_date = today.strftime('%B %#d / %Y')
         st.write('Date: ',formatted_date)
+    elif query.lower() in ["today's headlines", "today headlines", "headlines today"]:
+        today = date.today().strftime("%B %d, %Y")
+        query = f"Give me the top news headlines for {today}. Only include verified and trustworthy headlines."
+        response = ai_response(query)
     elif query:
         response = ai_response(query)
         st.success(f"🤖 {response}")
