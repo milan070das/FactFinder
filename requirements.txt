@@ -1,4 +1,14 @@
 streamlit
+pandas
+numpy
 nltk
 pyttsx3
-speech-regonition
+SpeechRecognition
+google-generativeai
+langchain
+langchain-community
+Pillow
+newspaper3k
+faiss-cpu
+joblib
+unstructured
