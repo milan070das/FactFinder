@@ -46,7 +46,7 @@ with st.spinner("Downloading NLTK data..."):
 # Set up API key
 api_key=st.secrets["API_KEY"]
 
-genai.configure(api_key)
+genai.configure(api_key='AIzaSyA0jX1JDZD7Tkhgm4crgO08bAjG9KFBUYc')
 model = genai.GenerativeModel('gemini-2.0-flash')
 
 # Initialize text-to-speech
