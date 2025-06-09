@@ -24,7 +24,7 @@ import platform
 st.set_page_config(page_title="Fact Finder", layout="wide")
 
 # Sidebar Navigation with Icons
-st.sidebar.image("logo.png", use_column_width=True)
+st.sidebar.image("app_images/logo.png", use_column_width=True)
 st.sidebar.title("🚀 Navigation")
 tabs = st.sidebar.radio("Go to:", [
     "🏠 Home",
@@ -104,7 +104,7 @@ if tabs == "🏠 Home":
     - 🧠 **News Research**: Get a quick view of your news article.
     - 🤖 **Newzie**: Interact with an AI chatbot.
     """)
-    st.image("ai_image.jpg", use_column_width=True)
+    st.image("app_images/ai_image.jpg", use_column_width=True)
 
 # Fake News Detector
 elif tabs == "📰 Fake News Detector":
