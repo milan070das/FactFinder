@@ -20,9 +20,18 @@ FactFinder is an intelligent web application designed to help users detect fake 
 | Layer          | Technology                    |
 |----------------|------------------------------|
 | Frontend & UI  | Streamlit                    |
-| NLP Models     | Gemini, Transformers   |
+| NLP Models     | Gemini, Transformers         |
 | Data Handling  | Python, Pandas, Requests     |
-| Backend Logic  | Python                      |
+| Backend Logic  | Python                       |
 | Fake News Detection Models | Custom-trained NLP classifiers |
 
 ---
+
+## 🔐 Set Up Your Google API Key (Gemini)
+
+1. Visit [Google AI Studio](https://makersuite.google.com/app/apikey).
+2. Sign in with your Google account.
+3. Click **"Get API Key"** and copy the generated key.
+4. Paste it the place where it is written "your-api-key"
+
+Link to access the app: factfinder.streamlit.app
