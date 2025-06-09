@@ -75,8 +75,8 @@ def ai_response(prompt):
 # Load the trained model and vectorizer (Fake News Detector)
 @st.cache_resource
 def load_model():
-    vectorizer = joblib.load("vectorizer.pkl")
-    model = joblib.load("fake_news_model.pkl")
+    vectorizer = joblib.load("models/vectorizer.pkl")
+    model = joblib.load("models/fake_news_model.pkl")
     return vectorizer, model
 vectorizer, fake_news_model = load_model()
 
