@@ -253,7 +253,7 @@ elif tabs == "👨‍💻 Developed By":
     if st.button("GitHub Profile"):
         webbrowser.open('https://github.com/milan070das')
     st.write("😄**Don't hesitate to share your feedback with us and tell us how we can do better!**")
-    image = Image.open("qr.jpg")
+    image = Image.open("app_images/qr.jpg")
     image = image.resize((200, 200))
     st.image(image)
     if st.button("Feedback Form"):
