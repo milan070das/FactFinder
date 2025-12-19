@@ -20,3 +20,5 @@ unstructured
 
 # Fix lxml cleaner split (needed by some HTML parsing stacks)
 lxml[html_clean]
+scikit-learn
+
