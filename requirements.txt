@@ -14,3 +14,4 @@ faiss-cpu
 unstructured
 SpeechRecognition
 lxml[html_clean]
+scikit-learn
