@@ -13,6 +13,4 @@ google-generativeai
 faiss-cpu
 unstructured
 SpeechRecognition
-pyttsx3
 lxml[html_clean]
-
