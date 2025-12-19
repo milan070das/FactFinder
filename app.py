@@ -13,7 +13,7 @@ import google.generativeai as genai
 import joblib
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_community.document_loaders import UnstructuredURLLoader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain.chains import RetrievalQAWithSourcesChain
@@ -258,3 +258,4 @@ elif tabs == "👨‍💻 Developed By":
     st.image(image)
     if st.button("Feedback Form"):
         webbrowser.open('https://forms.gle/XMk5oLhjoAgXoFPT9')
+
