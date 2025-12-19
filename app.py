@@ -129,8 +129,8 @@ def ai_response(prompt):
 # Load the trained model and vectorizer (Fake News Detector)
 @st.cache_resource
 def load_model():
-    vectorizer = joblib.load("vectorizer.pkl")
-    model = joblib.load("fake_news_model.pkl")
+    vectorizer = joblib.load("BASE_DIR /vectorizer.pkl")
+    model = joblib.load("BASE_DIR /fake_news_model.pkl")
     return vectorizer, model
 
 try:
@@ -399,5 +399,6 @@ elif tabs == "👨‍💻 Developed By":
     with col4:
         if st.button("📝 Feedback Form", use_container_width=True):
             webbrowser.open('https://forms.gle/XMk5oLhjoAgXoFPT9')
+
 
 
