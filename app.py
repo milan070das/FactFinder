@@ -7,7 +7,7 @@ import os
 import webbrowser
 from datetime import datetime
 from datetime import date
-import pyttsx3
+# import pyttsx3
 import speech_recognition as sr
 import google.generativeai as genai
 import joblib
@@ -52,23 +52,23 @@ genai.configure(api_key=api_key)
 model = genai.GenerativeModel('gemini-2.0-flash')
 
 # Initialize text-to-speech
-engine = pyttsx3.init()
+# engine = pyttsx3.init()
 
-def say(text):
-    """Converts text to speech."""
-    engine.say(text)
-    engine.runAndWait()
+# def say(text):
+#     """Converts text to speech."""
+#     engine.say(text)
+#     engine.runAndWait()
 
-def take_command():
-    """Captures user's voice input and converts it to text."""
-    r = sr.Recognizer()
-    with sr.Microphone() as source:
-        st.write("🎤 Listening...")
-        audio = r.listen(source)
-        try:
-            return r.recognize_google(audio, language='en-in').lower()
-        except:
-            return ""
+# def take_command():
+#     """Captures user's voice input and converts it to text."""
+#     r = sr.Recognizer()
+#     with sr.Microphone() as source:
+#         st.write("🎤 Listening...")
+#         audio = r.listen(source)
+#         try:
+#             return r.recognize_google(audio, language='en-in').lower()
+#         except:
+#             return ""
 
 def ai_response(prompt):
     """Generates AI response using Gemini API."""
@@ -258,5 +258,6 @@ elif tabs == "👨‍💻 Developed By":
     st.image(image)
     if st.button("Feedback Form"):
         webbrowser.open('https://forms.gle/XMk5oLhjoAgXoFPT9')
+
 
 
