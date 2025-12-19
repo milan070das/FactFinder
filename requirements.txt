@@ -5,13 +5,18 @@ nltk
 joblib
 Pillow
 newspaper3k
-langchain-classic
+
+# Gemini + LangChain (RAG)
+google-generativeai
+langchain
 langchain-community
 langchain-google-genai
 langchain-text-splitters
-google-generativeai
+langchain-classic
+
+# Vector store + URL loading
 faiss-cpu
 unstructured
-SpeechRecognition
+
+# Fix lxml cleaner split (needed by some HTML parsing stacks)
 lxml[html_clean]
-scikit-learn
