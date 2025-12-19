@@ -15,3 +15,4 @@ unstructured
 lxml_html_clean
 scikit-learn
 langchain
+langchain-text-splitters
