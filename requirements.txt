@@ -14,3 +14,4 @@ faiss-cpu
 unstructured
 lxml_html_clean
 scikit-learn
+langchain
