@@ -12,4 +12,5 @@ langchain-google-genai
 faiss-cpu
 Pillow
 newspaper3k
-lxml
+lxml-html-clean
+
