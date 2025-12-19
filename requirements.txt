@@ -13,4 +13,5 @@ faiss-cpu
 Pillow
 newspaper3k
 lxml-html-clean
+unstructured
 
